@@ -77,10 +77,10 @@ git clone https://github.com/piplanidhruv2-oss/HospitalManagementSystem.git
 
 ## 👨‍💻 Author
 
-# Dhruv Piplani
+ Dhruv Piplani
 
-# 📧 dhruvpiplani2@gmail.com
+📧 dhruvpiplani2@gmail.com
 
-# 🌐 wwww.linkedin.com/in/dhruvpiplani
+🌐 wwww.linkedin.com/in/dhruvpiplani
 
 
