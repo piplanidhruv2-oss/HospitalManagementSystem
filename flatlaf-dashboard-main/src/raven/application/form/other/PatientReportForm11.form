@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lb" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="68" pref="68" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" pref="167" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="DoctorSign" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                                  <Component id="signTF" min="-2" pref="103" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="Complaints" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="jLabel12" min="-2" pref="78" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="patientweight" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="Daibetic" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="PatientNameTF" alignment="0" min="-2" pref="181" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="patwtTF" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                                              <Component id="diabeteTF" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="bp" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="bpTF" min="-2" pref="78" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="Hypertension" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="hyperTF" min="-2" pref="64" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="PatientName" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="GenderAge" min="-2" pref="75" max="-2" attributes="0"/>
+                                              <Component id="tsh" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jButton1" min="-2" pref="84" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jButton2" min="-2" pref="85" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="PR" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="pathology1" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="ConsFee" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="medicineFeeTF" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                                              <Component id="testfeeTF" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jTextField3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="consfeeTF" min="-2" max="-2" attributes="0"/>
+                                              <Component id="complainTF" min="-2" pref="242" max="-2" attributes="0"/>
+                                              <Component id="pathologytestTF" min="-2" pref="253" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButton3" min="-2" pref="87" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="ReportdateTF" min="-2" pref="77" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="advise" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                                              <Component id="review" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="dateofservice" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                              <Component id="admitcharge" alignment="0" min="-2" pref="82" max="-2" attributes="0"/>
+                                              <Component id="paymentoption" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                                              <Component id="totalfees" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="reviewTF" min="-2" pref="209" max="-2" attributes="0"/>
+                                                      <Component id="adviseTF" min="-2" pref="209" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="admitchargeTF" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="dateserviceTF" min="-2" pref="93" max="-2" attributes="0"/>
+                                                      <Component id="paymentoptionTF" min="-2" pref="130" max="-2" attributes="0"/>
+                                                      <Component id="totalTF" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="genderTF" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="AgeTF" min="-2" pref="30" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="prTF" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <Component id="tshTF" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="temprature" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tempTF" min="-2" pref="78" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="foodTF" min="-2" pref="78" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
+                                      <Component id="drugTF" min="-2" pref="78" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="drugallergy" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="PAtientMob" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Component id="PatientmobTF" min="-2" pref="173" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="UHID" min="-2" pref="54" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="uhidTF" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                  <Component id="REportdate" min="-2" pref="48" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="560" max="32767" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lb" min="-2" pref="61" max="-2" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PatientmobTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PAtientMob" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="UHID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PatientName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PatientNameTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="drugallergy" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="drugTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="GenderAge" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="genderTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AgeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="REportdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ReportdateTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="uhidTF" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel12" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="Daibetic" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="diabeteTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Hypertension" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="hyperTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="foodTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tsh" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tshTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Complaints" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="complainTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="advise" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="adviseTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="46" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="patwtTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="patientweight" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bp" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="bpTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PR" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="prTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="temprature" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tempTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="pathology1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="pathologytestTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="review" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="reviewTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConsFee" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="consfeeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateofservice" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateserviceTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="admitcharge" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="admitchargeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="medicineFeeTF" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="paymentoption" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="paymentoptionTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="testfeeTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="totalfees" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="totalTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="DoctorSign" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="signTF" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jButton4" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="320" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lb">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Patient-Report"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientmobTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PAtientMob">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient Mobile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="REportdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ReportdateTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="PatientName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patient Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientNameTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PatientNameTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="UHID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="UHID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="uhidTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="GenderAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender/Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="genderTF">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Male"/>
+            <StringItem index="1" value="Female"/>
+            <StringItem index="2" value="Other"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgeTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="bp">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="B.P :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P.R :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="temprature">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Temp:-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="patientweight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wt :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bpTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tempTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="prTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="patwtTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="HISTORY"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Daibetic">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diabetes :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="diabeteTF">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Yes"/>
+            <StringItem index="1" value="No"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Hypertension">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hypertension :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="hyperTF">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Yes"/>
+            <StringItem index="1" value="No"/>
+            <StringItem index="2" value="High"/>
+            <StringItem index="3" value="Low"/>
+            <StringItem index="4" value="Medium"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tsh">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TSH :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tshTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="foodTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="drugallergy">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Drug Allergy :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="drugTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Complaints">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="COMPLAINTS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="complainTF">
+    </Component>
+    <Component class="javax.swing.JTextField" name="pathologytestTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pathologytestTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="advise">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ADVISE ;-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="adviseTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="review">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="REVIEW AFTER :-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="reviewTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="DoctorSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor Sighnature"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="signTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="signTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Print"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pathology1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PATHOLOGY INVESTIGATION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BILLING"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Food Allergy"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dateofservice">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Service"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConsFee">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctor&apos;s Consultation "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="medicineFeeTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Medication Charge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="testfeeTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Test and Diagonsis Charge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="admitcharge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Admit Charge"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="consfeeTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consfeeTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="dateserviceTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dateserviceTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="admitchargeTF">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="admitchargeTFActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalfees">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Total Charge: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="totalTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="paymentoption">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Payment Options"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="paymentoptionTF">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Online Payment"/>
+            <StringItem index="1" value="Mail Check"/>
+            <StringItem index="2" value="In-Person Payment"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="paymentoptionTFActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
